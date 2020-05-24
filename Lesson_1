@@ -1,0 +1,145 @@
+Mr Tyler welcome to your new course!!!!!!!!!
+
+How this will work, all our code will be displayed in github, from here you, or I can easily copy and paste the code we are using into,
+and from our IDLE. I will be using Sublime text 3. I reconmend you use Jupiter note book, but if you want to use the standard python 
+IDLE then that will work as well.
+ 
+Project 1/1:
+Choose your IDLE and let me know, what you are using. Open a new file and save it as project_one.py
+NOTE - Our IDLEs will help us write code after we have created the file, once the program knows it s a .py file
+ 
+Sublime text/Jupiter note book or Visual studio code are excellent IDLEs and will help us write our code and handle errors once the file has been created as .py
+It does this by colour coding our script and checking the white space. Image 1 show's my script from sublime text, you can see patterns of coloured text. 
+What they mean and do we will learn soon.
+ 
+You should now have a empty .py file infront of you. Project 1 will be a program to help us with our golf club selection process.
+ 
+This will be a primitive program to show the basics of python.
+
+Lets write some code:
+
+Integer - This is a whole number e.g 1, 2, 3
+Float - A decimal number e.g 3.14(pi)
+String - Anything contained in ' ' or " ", e.g "I like Phil Shenton's course"
+NOTE - if your using a ' in you text you need to use " " at each end!!
+
+Variables - think of it as a box that holds a value, this allows us to call the box when and where we want e.g 
+a = 7   (a is the variable, 7 is the value)
+fruit = 'Apple' (Fruit is the variable, 'Apple' is the value)
+
+Q1. What type is the value in a and what type is the value in fruit????
+Answer :  
+
+almost there before we, or should I say you write some code.
+
+The print statement, allows us to print information, you can combine text and variables with f strings:
+
+print('Hello world!!') 
+NOTE - print() is a built in function within python, you can print most things with it.
+
+print (f'add text and {variables} in here') - This is a f string syntax, all your variables need to be contained in {}
+See below for an example.
+
+OK copy this code line 44 to 51 into your IDLE and run it:
+
+name = 'Phil'
+age = 34
+club_make = "Cobra Fly-Z"
+handicap = 21
+
+print ("My name is Phil, I'm 34 my handicap is 21") 
+print (f"My name is {name}, I'm {age} my handicape is {handicap}") 
+
+Both lines print the same thing, so why bother!!!!
+
+Q2,
+Now I want you to change the values of our variables to your details and print line 51 again. 
+NOTE - strings are in ' ' integers are whole numbers.
+send me your code from line 45 to 51 ignore line 50.
+
+Say we had the hadicap variable printed in 100 lines of code and then are handicap dropped by 2 strokes.
+
+How do we change all the info??? We could do this a few ways:
+
+handicap = handicap - 2
+
+or a better way:
+
+handicap -= 2
+
+Q3.
+Now change your handicap by plus 1 stroke and change the make of clubs to a different brand. 
+Prove this worked by printing a sentence that says "My new clubs are _______ and my handicap is_____" 
+send me your code.
+
+Ok last part to this lesson. Lists:
+Lists are amazing mutable objects that allow us alot of freedom to use and abuse them.
+
+Python Syntax
+
+List_Name = [] - NOTE you need a name then an equals and then square brackets around your list objects, items inside need a comma in between them.
+
+What can go in a list???? well most things. Lets make a list.
+
+practice_list = ['Apple','Banana',7,3.14] - NOTE you can place anything in the list but if you mix types like integers and strings you may run into 
+problems later on.
+
+You can slice and index lists based on their postion. 
+
+First postion in lists is 0. 
+Apple is postion 0. 
+7.9 is postion 3
+
+I can print the last item like this:
+
+print(practice_list[3]) - NOTE you call the variable and enclose the position in square brackets.
+
+You can add to lists with the python append function:
+
+practice_list.append('Orange') - NOTE the syntax is variable name (must be a list) .append() then add the new item in the brackets.
+
+print (pratice_list)
+
+Q4.
+
+Create two lists one called golf bag and add 5 clubs of your choice.
+Now create a list called distance and place the rough distance(in metres) for each club in that list.
+Now append a putter in the golf bag and the distance of 50 in the distance list.
+Send those four lines of code to me.
+
+OK thats it for lesson one. We looked at variables, integers, strings, floats, the print function with f strings and started looking at 
+lists.
+
+Reseach questions, these wont take long, quick google:
+
+Q5. What is camel case and give me an example.
+
+Q6 Are lists mutable, what does mutable mean.
+
+Q7. In python how do I check the type of a variable, if a = 'Hello and b = 7
+    What code will return the type. e.g are they integers/strings/floats???
+    
+Q8. What is a function in programming, short answer :)
+
+LAST THNG IS :
+
+Create a github account and return the answers to me, make it private and copy your code from your IDLE into a github page 
+label each piece of code with the question number so I can check it. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
